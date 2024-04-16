@@ -1,0 +1,109 @@
+* {
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+}
+.kontainer {
+    display: flex;
+    min-height: 100vh;
+}
+
+.leftbar {
+    background-color: #03346c;
+    width: 260px;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.main-content {
+    background-color: #e9f2f1;
+    flex-grow: 1;
+}
+
+.leftbar .deskripsi-wrapper1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.leftbar a {
+    text-decoration: none;
+}
+
+.leftbar .wrapper1 .itemlist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 14px 10px;
+    border-radius: 8px;
+    width: 212px;
+    height: 40px;
+    box-sizing: border-box;
+
+}
+
+.leftbar .wrapper1 .itemlist .ikon{
+    margin-right: 12px;
+
+}
+
+.leftbar .wrapper1 .gambar-utama{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px 0 22px 0;
+    box-sizing: border-box;
+}
+
+
+.leftbar .mainn .itemlist .deskripsi{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.leftbar .mainn .itemlist .ikon{
+    margin-right: 12px;
+}
+
+.leftbar .mainn .itemlist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    width: 212px;
+    box-sizing: border-box;
+}
+
+.leftbar .mainn .itemlist:hover{
+    background-color: #ff9900;
+    transition: all ease-in .2;
+}
+
+.wrapper1{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.main-content{
+    text-align: center;
+}
+
+.dati{
+    display: flex;
+}
